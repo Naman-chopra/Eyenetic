@@ -16,7 +16,10 @@ My intention of making eyentic was based off of a different perspective. It was 
 
 ## Workflow of Eyenetic
 Given below is a somewhat simplified flow of how the files in this repository work together. The details of how to run the code on your device are given [here](./Codefiles/readme.md)
-![flowchart](./illustrations/flowchart_1.png)
+
+<p align='center'>
+<img src="./illustrations/flowchart_1.png", width=800>
+</p>
 
 ## Future Plans
 As this was just a prototype, the images of the eyes used were of very low resolution `(32x32)` and the dataset was ***manually collected*** which accounted for only ***1000 images***  
