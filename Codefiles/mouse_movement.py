@@ -7,12 +7,12 @@ import time
 import os
 
 ######## Run Mouse Pointer for t seconds ########
-rootdir='Eyenetic/'
+rootdir='Eyenetic/Codefiles'
 t=10
-cascade = cv2.CascadeClassifier("Eyenetic/haarcascade_eye.xml")
+cascade = cv2.CascadeClassifier(rootdir+"/haarcascade_eye.xml")
 video_capture = cv2.VideoCapture(0)
 width, height = return_resolution()
-model=load_model(rootdir+'model.h5')
+model=load_model(rootdir+'/model.h5')
 
 begin = time.time()
 while True:
